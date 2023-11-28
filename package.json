@@ -5,7 +5,7 @@
   "main": "dist/yamcsProto.cjs",
   "scripts": {
     "clean": "npx rimraf compiled.js node_modules/ dist/",
-    "postinstall": "npx pbjs --package=protobufjs-cli -t static-module -w es6 -o compiled.js **/*.proto && npx webpack --mode=production && npx pbts -o dist/yamcsProto.d.ts compiled.js",
+    "build": "npx pbjs --package=protobufjs-cli -t static-module -w es6 -o compiled.js **/*.proto && npx webpack --mode=production && npx pbts -o dist/yamcsProto.d.ts compiled.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
