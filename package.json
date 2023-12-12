@@ -1,6 +1,6 @@
 {
   "name": "yamcs-protobufjs-static",
-  "version": "5.8.8-alpha-2",
+  "version": "5.8.8",
   "description": "Compiled protobufjs static module for Yamcs",
   "main": "dist/yamcsProto.cjs",
   "scripts": {
